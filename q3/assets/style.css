@@ -1,0 +1,162 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color:#f1f1f1;
+}
+.wrapper{
+  margin: 3%;
+  color: #000;
+}
+.header{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+}
+h1{
+  font-size: xx-large;
+  font-weight:bolder;
+}
+.header p{
+          margin-top: 2%;
+}
+.black{
+    background-color: black;
+    color: white;
+    padding: 4px 6px;
+    margin-left: 5px;
+}
+.content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 2% 0;
+
+}
+img{
+  width: 100%;
+  object-fit: contain;
+}
+
+.container{
+  padding: 2%;
+  background-color: white;
+}
+.circle{
+  padding: 0 0.3%;
+  color: white;
+  background-color: #000;
+  border-radius: 100%;
+}
+.photoFooter{
+  display:flex;
+  justify-content: space-between;
+  vertical-align: middle;
+}
+.boxShadow{
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
+}
+.secondCart{
+  margin-top: 2%;
+
+}
+h5{
+  padding: 1% 0;
+}
+div p{
+  padding: 1.5% 0;
+}
+.readMore{
+  padding: 11.5% 0;
+  background-color: white;
+  border-color: #ccc !important;
+  cursor: pointer;
+}
+.readMore:hover{
+  background-color:#ddd;
+}
+.navbarLeft{
+  margin-left: 2.5%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.PopularPosts , .tags{
+  background-color: white;
+}
+li img{
+  width:12%;
+  vertical-align:middle;
+  margin-right: 3%;
+}
+ul{
+  list-style-type: none;
+}
+li:first-of-type , .h{
+  font-size: larger;
+  background-color: #f1f1f1;
+}
+li{
+  display: flex;
+  padding: 3%;
+  border-bottom: 1px solid #ddd;
+}
+li:hover{
+  background-color: #ddd;
+}
+.tags span{
+  background-color: #f1f1f1;
+  padding: 0.25%;
+  margin: 0.5%;
+}
+.h{
+  padding: 4%;
+}
+.kadr{
+  margin: 4%;
+  font-size: small;
+}
+.tags span:first-of-type{
+ color: white;
+ background-color: black;
+}
+.footer{
+  color: #fff;
+  background-color: #616161 !important;
+  padding:2% 3% 4% 1%;
+}
+.bottoms{
+  display: flex;
+}
+.bottoms span{
+  padding: 1%;
+  margin-bottom: 2%;
+}
+#next{
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+}
+#next:hover{
+  background-color: #ccc;
+  color: #000;
+}
+#previuous{
+  margin-right: 0.25%;
+  color: #ccc;
+  background-color: rgb(71, 66, 66);
+  cursor: not-allowed;
+}
+#previuous:hover{
+  color: #000;
+  background-color:rgb(158, 149, 149) ;
+}
+a{
+  color: #fff;
+}
